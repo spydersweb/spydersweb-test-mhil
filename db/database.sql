@@ -19,3 +19,10 @@ CREATE TABLE `mhil`.`users` (
     `created` DATETIME NOT NULL DEFAULT current_timestamp,
     PRIMARY KEY (`user_id`),
 UNIQUE INDEX `user_id_UNIQUE` (`user_id` ASC, `username` ASC) VISIBLE);
+
+-- Seed the albums table with some demo data
+INSERT INTO `mhil`.`albums` (`album_title`, `album_artist`, `album_year`) VALUES ('Fear Inoculum', 'Tool', '2019');
+INSERT INTO `mhil`.`albums` (`album_title`, `album_artist`, `album_year`) VALUES ('The Fat of the Land', 'The Prodigy', '1997');
+
+-- Seed the users table with a single user
+INSERT INTO `mhil`.`users` (`username`) VALUES ('graham');
