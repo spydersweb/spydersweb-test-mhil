@@ -21,4 +21,20 @@ bin/cake server
 Which will run up the server and make the app available on the default location however as I haven't overridden this you will need to navigagte to
 `http://localhost:8765/albums` to see the initial album list.
 
+#App screenshots
+
+### List View
 ![image](https://github.com/spydersweb/spydersweb-test-mhil/assets/52936208/bc9b66a6-6831-43db-9a85-5c61b3e4daae)
+
+### Add an album
+![image](https://github.com/spydersweb/spydersweb-test-mhil/assets/52936208/8e9a3816-43ed-416b-97a6-f47f7ac5524b)
+
+### Edit an album
+![image](https://github.com/spydersweb/spydersweb-test-mhil/assets/52936208/5d5f6fe4-9be6-4f3f-877a-6d6e22b7cb64)
+
+### Delete an album with confirmation
+![image](https://github.com/spydersweb/spydersweb-test-mhil/assets/52936208/bc4ac29d-3026-4323-9f6c-cd5283ca6e86)
+
+![image](https://github.com/spydersweb/spydersweb-test-mhil/assets/52936208/c3d735bb-9f8f-4633-9615-de3b9f9b94d8)
+
+
