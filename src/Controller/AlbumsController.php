@@ -3,8 +3,15 @@
 
 namespace App\Controller;
 
+use Cake\View\JsonView;
+
 class AlbumsController extends AppController
 {
+    public function viewClasses(): array
+    {
+        return [JsonView::class];
+    }
+
     public function index()
     {
         $order = isset($_GET["album_title"]) ? $_GET["album_title"] : "asc";
