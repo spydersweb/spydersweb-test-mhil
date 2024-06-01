@@ -37,4 +37,8 @@ Which will run up the server and make the app available on the default location 
 
 ![image](https://github.com/spydersweb/spydersweb-test-mhil/assets/52936208/c3d735bb-9f8f-4633-9615-de3b9f9b94d8)
 
+# JUST FOR FUN!!
+I've also added a Postman collection to get the albums list as a json list.
+
+![image](https://github.com/spydersweb/spydersweb-test-mhil/assets/52936208/2b0f9350-78c4-4b29-ac02-f1502720b1bc)
 
