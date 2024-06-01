@@ -40,5 +40,7 @@ Which will run up the server and make the app available on the default location 
 # JUST FOR FUN!!
 I've also added a Postman collection to get the albums list as a json list.
 
+Whilst this was a fun little endeavour the main reasoning is based in CakePHP's need for the Request/Response model. However integrating with a frontend framework in Vue or React would mean an SPA could be written as a single view and the rest of the interactions could be handled as HTTP requests to the API, leading to a better user experience. 
+
 ![image](https://github.com/spydersweb/spydersweb-test-mhil/assets/52936208/2b0f9350-78c4-4b29-ac02-f1502720b1bc)
 
