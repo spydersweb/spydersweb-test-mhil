@@ -18,7 +18,7 @@ Start the server from the command line:
 bin/cake server
 ```
 
-Which will run up the server and make the app available on the default location however as I haven't overridden this you will need to navigagte to
+Once the server is up, the app will be available at the default location however as I haven't overridden this you will need to navigagte to
 `http://localhost:8765/albums` to see the initial album list.
 
 # App screenshots
