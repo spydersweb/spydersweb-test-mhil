@@ -1,6 +1,6 @@
 # Must Have Ideas Ltd - Demo App
 
-A very basic demonstation app using CakePHP to create a list of albums with simple CRUD operations.  For this demonstations the app_local.php file has been deployed to version control which otherwise would not be included.
+A very basic demonstation app using CakePHP to create a list of albums with simple CRUD operations.  For this demonstation the app_local.php file has been deployed to version control which otherwise would not be included.
 
 # Setup
 We are using a local version of MySql running on port 3306 and so no configuration is required other than to setup a new user and grant the privileges on the newly created schema and tables.
