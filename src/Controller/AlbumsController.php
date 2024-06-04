@@ -7,6 +7,9 @@ use Cake\View\JsonView;
 
 class AlbumsController extends AppController
 {
+    /**
+     * 
+     */
     public function viewClasses(): array
     {
         return [JsonView::class];
@@ -39,13 +42,26 @@ class AlbumsController extends AppController
         $this->set('album', $album);
     }
 
-    public function read($album_id){
+        
+    /**
+     * read
+     *
+     * @param  mixed $album_id
+     * @return void
+     */
+    public function read($album_id): void {
         $album = $album = $this->Albums->findAllByAlbumId($album_id)->firstOrFail();
 
         $this->set(compact('album'));
     }
-
-    public function update($album_id) {
+    
+    /**
+     * update
+     *
+     * @param  mixed $album_id
+     * @return void
+     */
+    public function update($album_id):void {
         $album = $this->Albums->findAllByAlbumId($album_id)->firstOrFail();
 
         if ($this->request->is(['post', 'put'])) {
